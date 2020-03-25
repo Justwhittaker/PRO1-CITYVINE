@@ -35,18 +35,18 @@ header {
     margin-top: 40px;
     margin-left: 50px;
     margin-right: 50px;
-    color: rgba(24, 52, 206, 0.555);
+    color: lightseagreen;
 }
 
 .catchphrase {
     font-family: "Righteous" , arial;
     font-weight: 90;
-    font-size: 18px;
+    font-size: 22px;
     text-decoration: none;
     margin-top: 62px;
     margin-left: 50px;
     margin-right: 50px;
-    color: rgba(24, 52, 206, 0.555);
+    color: lightseagreen;
 }
 
 .navitem {
@@ -101,11 +101,56 @@ body {
 /*...................Sections*/
 /*...................hover*/
 
-.hvr-glow {
+.hvr-glow:after {
     width: 100%;
-    margin: 0;
+    margin: 100%;
+    background: gold;
+    padding: 30;
     
 }
 
 /*...................Spec margins,padding,margins,text*/
 /*...................Footer*/
+
+footer {
+    background-color: lightseagreen;
+    min-height: 40px;
+    margin-top: 305px;
+}
+
+.social-links {
+    padding-bottom: 5px;
+    display: inline;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.social-links li a i {
+    width: 50px;
+    height: 50px;
+    padding: 12px 0;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 23px;
+    background: #ffffff;
+    display: inline-block;
+    text-decoration: none;
+    color: darkgreen;
+    transition: all .5s glow;
+    -moz-transition: all .5s glow;
+    -o-transition: all .5s glow;
+    -webkit-transition: all .5s glow;
+}
+
+.social {
+    font-family: "Righteous", arial;
+    font-size: 23px;
+    color: rgba(24, 52, 206, 0.555)
+}
+
+.button {
+    font-family: "Righteous", arial;
+    font-size: 23px;
+    color: rgba(24, 52, 206, 0.555);
+    background: gold;
+}

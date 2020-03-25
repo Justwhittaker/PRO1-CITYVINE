@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Assistant|Righteous&display=swap');
+
+/*...................Heading*/
+
+header {
+    margin: 0;
+}
+
+.heading {
+    margin-left: 60px;
+}
+
+/*...............logo must be eye catching, have movement and in good proportion*/
+.logo {
+    background: url("../images/logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 120px;
+    max-width: 120px;
+    margin-left: 40px;
+    margin-top: 20px;
+    border-radius: 50%;
+    transition: all .5s linear;
+    -moz-transition:all .5s linear;
+    -webkit-transition: all .5s linear;
+}
+/*........the heading must have good color, size &font, well aligned good font size*/
+.name {
+    font-family: "Righteous" , arial;
+    font-weight: 90;
+    font-size: 46px;
+    text-decoration: none;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: rgba(24, 52, 206, 0.555);
+}
+
+.catchphrase {
+    font-family: "Righteous" , arial;
+    font-weight: 90;
+    font-size: 18px;
+    text-decoration: none;
+    margin-top: 62px;
+    margin-left: 0%;
+    margin-right: 00px;
+    color: rgba(24, 52, 206, 0.555);
+}
+
+/*...................Colors*/
+/*...................Sections*/
+/*...................hover*/
+/*...................Spec margins,padding,margins,text*/
+/*...................Footer*/

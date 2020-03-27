@@ -154,10 +154,7 @@ footer {
 }
 
 .social-links {
-    padding-bottom: 5px;
-    display: inline;
-    margin-top: 0px;
-    margin-left: 0px;
+    padding-bottom: 0;
 }
 
 .social-links li a i {
@@ -166,6 +163,7 @@ footer {
     padding: 12px 0;
     border-radius: 50%;
     text-align: center;
+    margin-left: 40px;
     font-size: 23px;
     background: #ffffff;
     display: inline-block;
@@ -180,6 +178,20 @@ footer {
 .social {
     font-family: "Righteous", arial;
     font-size: 23px;
+    color: rgba(24, 52, 206, 0.555);
+    margin-left: 138px;
+}
+
+.copyright {
+    font-family: "Righteous", arial;
+    font-size: 23px;
+    color: rgba(24, 52, 206, 0.555);
+    margin-left: 140px;
+}
+
+.copyright p {
+    font-family: "Righteous", arial;
+    font-size: 9px;
     color: rgba(24, 52, 206, 0.555)
 }
 
@@ -188,4 +200,6 @@ footer {
     font-size: 23px;
     color: rgba(24, 52, 206, 0.555);
     background: gold;
+    margin-left: 50px;
+    margin-top: 25px;
 }

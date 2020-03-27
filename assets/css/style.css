@@ -143,10 +143,11 @@ body {
 }
 
 .signup-form{
-  margin-top: 50px;
+  margin-top: 10px;
+  margin-left: 150px;
   color: black;
   background: rgb(96, 248, 240);
-  max-width: 570px;
+  max-width: 670px;
   position: absolute;
   left: 10%;
   padding: 30px;
@@ -160,6 +161,10 @@ body {
   margin-left: 30px;
 }
 
+label {
+ font-family: "Amatic SC", arial;
+}
+
 .text-input:hover{
    border-color: #f16c6b;
 }
@@ -167,8 +172,8 @@ body {
 .text-input{
   background-color: transparent;
   color: black;
-  font-family: "Amatic SC", arial;
-  width: 100%;
+  font-family: "Righteous", arial;
+  width: 85%;
   height: 25px;
   margin: 5px 0px 20px 0px;
   border: 1px solid #fafafa;

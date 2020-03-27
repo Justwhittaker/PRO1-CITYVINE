@@ -104,6 +104,28 @@ body {
 }
 
 /*...................Sections*/
+
+#wines {
+    clear: both;
+    column-count: 4;
+    line-height: 50px;
+    column-gap: 0px;
+    background: none;
+}
+
+#wines img {
+    width: 90%;
+    max-height: 300px;
+    margin-bottom: 2px;
+    font-family: "Righteous", arial;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    font-display: inherit;
+    padding: 3px;
+}
+
+
 /*...................hover*/
 
 .hvr-glow:after {

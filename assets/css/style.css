@@ -27,6 +27,7 @@ header {
     -moz-transition:all .5s linear;
     -webkit-transition: all .5s linear;
 }
+
 /*........the heading must have good color, size &font, well aligned good font size*/
 .name {
     font-family: "Amatic SC" , arial;
@@ -54,12 +55,18 @@ header {
 
 .navcontainer {
     font-size: 0;
-    }
+}
+
+.list-inline {
+    display: inline-block;
+}
 
 #nav li {
     padding: 0;
 }
+
 .navitem {
+        text-decoration: none;
         font-family: "Righteous", arial;
         font-weight: 70;
         text-align: center;
@@ -73,13 +80,32 @@ header {
 }
 
 .navitem a i {
+    text-decoration: none;
     padding-left: 40px;
     padding-right: 40px;
     display: block;
     font-size: 23px;
     color: rgba(24, 52, 206, 0.555)
 }
+
+/*...................hover*/
+
+.hvr-glow:after {
+    width: 100%;
+    margin: 100%;
+    background: gold;
+    padding: 30;  
+}
+
+.join-button:hover {
+  color: black;
+  background-color: green;
+  font-family: "Righteous";
+  font-size: 20px;
+}
+
 /*....assitance with code from 24css; see acknowledgements..*/
+
 .navitem a:hover:before {
   transform: scale(1.2);
   box-shadow: 0 0 15px #474441;
@@ -96,12 +122,6 @@ header {
   box-shadow: 0 0 15px lightsalmon;
   text-shadow: 0 0 15px black;
 }
-
-.list-inline {
-    display: inline-block;
-}
-
-
 
 /*...................Colors*/
 
@@ -157,6 +177,7 @@ body {
 
 .winery {
     font-family: "righteous", Arial;
+    text-decoration: none;
     font-size: 20px;
     color: gold;
 }
@@ -186,7 +207,6 @@ body {
    font-size: 23px;
    color: #ffffff;
 }
-
 
 /*...................form */
 
@@ -259,37 +279,17 @@ label {
   display: block;
 }
 
-.join-button:hover {
-  color: black;
-  background-color: green;
-  font-family: "Righteous";
-  font-size: 20px;
-}
-
-
-/*...................hover*/
-
-.hvr-glow:after {
-    width: 100%;
-    margin: 100%;
-    background: gold;
-    padding: 30;
-    
-}
-
 /*...................Spec margins,padding,margins,text*/
 
 .video {
     margin-left: 250px;
 }
 
-
 /*...................Footer*/
 
 footer {
     background-color: lightseagreen;
-    min-height: 40px;
-    
+    min-height: 40px; 
 }
 
 .social-links {

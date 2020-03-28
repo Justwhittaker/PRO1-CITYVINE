@@ -116,9 +116,12 @@ body {
 #wines {
     clear: both;
     column-count: 4;
+    margin-left: 10px;
+    margin-top: 10px;
     line-height: 50px;
     column-gap: 0px;
     background: none;
+    scroll-margin-bottom: 0;
 }
 
 #wines img {
@@ -131,6 +134,13 @@ body {
     text-decoration: none;
     font-display: inherit;
     padding: 3px;
+    border-radius: 25%
+}
+
+.winery {
+    font-family: "righteous", Arial;
+    font-size: 20px;
+    color: gold;
 }
 
 /*...................form */

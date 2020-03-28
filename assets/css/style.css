@@ -118,11 +118,11 @@ body {
     column-count: 4;
     margin-left: 10px;
     margin-top: 10px;
+    margin-bottom: 0;
     line-height: 50px;
     column-gap: 0px;
     background: none;
-    scroll-margin-bottom: 0;
-}
+    }
 
 #wines img {
     width: 90%;
@@ -142,6 +142,25 @@ body {
     font-size: 20px;
     color: gold;
 }
+
+.location-heading {
+   font-family: "Assistant", arial;
+   font-display: center;
+   font-style: uppercase;
+   margin-left: 250px;
+   font-size: 32px;
+   color: #ffffff;
+}
+
+.location-p {
+    font-family: "Amatic SC", arial;
+   font-display: center;
+   margin-left: 520px;
+   font-style: uppercase;
+   font-size: 18px;
+   color: #ffffff;
+}
+
 
 /*...................form */
 
@@ -228,7 +247,7 @@ label {
 footer {
     background-color: lightseagreen;
     min-height: 40px;
-    margin-top: 305px;
+    
 }
 
 .social-links {
@@ -280,4 +299,5 @@ footer {
     background: gold;
     margin-left: 50px;
     margin-top: 25px;
+    padding-right: 5px;
 }

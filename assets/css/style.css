@@ -152,6 +152,15 @@ body {
    color: #ffffff;
 }
 
+.quote-heading {
+     font-family: "Assistant", arial;
+   font-display: center;
+   font-style: uppercase;
+   margin-left: 350px;
+   font-size: 32px;
+   color: #ffffff;
+}
+
 .location-p {
     font-family: "Amatic SC", arial;
    font-display: center;

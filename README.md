@@ -147,3 +147,4 @@ I received further coding assitance from
     5. independent.co.uk was used for the background image.
     6. www.w3schools.com - Assitance to understand the code for Qty: signup.html
             https://www.w3schools.com/html/html_form_input_types.asp
+    7. https://uicookies.com/css-glow-effects/ - assitance to understand the code for hover effects

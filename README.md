@@ -36,17 +36,18 @@ As a user type, I want to perform an action, so that I can achieve a goal.
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
 Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
 Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+Feature 1 - allows users buy tickets to the events , by having them fill out the signup form. (signup.html)
+Feature 2 - allows the user to see exactly which wineries will be taking part (wines.HTML)
+Feature 3 - Allows users to link directly with the wineries by simply clicking onto the wine they want more info on.
+Feature 4 - a visual breakdown on the various locations chosen to host the events. (location.HTML)
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+Additional Features in the future include:
+Feature 5 - gallery page dedicated to pictures taken by guests and professional photographers allowing people to use 
+            our socail platforms more often creating more engagement and thus more traffic on google anatlytics
+Feature 6 - Competition Modual to win a prizr of a case of the "wine of the Month"
 
-Features Left to Implement
-Another feature idea
 Technologies Used
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
@@ -59,19 +60,20 @@ Whenever it is feasible, prefer to automate your tests, and if you've done so, p
 
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+Sign-up form:
+"SignUp" page
+1. Submitted an empty form and verified that an error message about the required fields appears
+2. Submitted an an invalid email address and verified that a relevant error message appears
+3. Submitted the form with all inputs valid and verify that a success message appears.
+
+<!--In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
+-->
 Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+<!--This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
 In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
 
@@ -79,26 +81,24 @@ Different values for environment variables (Heroku Config Vars)?
 Different configuration files?
 Separate git branch?
 In addition, if it is not obvious, you should also describe how to run your code locally.
-
+-->
 Credits
 Content
-The text for section Y was copied from the Wikipedia article Z
+text for Location.html was copied from quotefancy
+"Life is too short to drink bad wine"_Johann Wolfgang Van Goete
+https://quotefancy.com/quote/839582/Johann-Wolfgang-von-Goethe-Life-is-too-short-to-drink-bad-wine
+
 Media
-The photos used in this site were obtained from ...
-Acknowledgements
-I received inspiration for this project from X
+The photos used in this site were obtained from:
 
-video enbed
-https://www.tutorialspoint.com/How-to-embed-a-video-using-HTML-code
-
-coverflow
-https://coverflowjs.github.io/coverflow/
+video used to embed
+    Was created using promo and launched onto Youtube
 
 
 background image
 https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.independent.co.uk%2Flife-style%2Ffood-and-drink%2Fdrinking-wine-beer-makes-you-more-creative-australian-study-mathias-benedek-a7883826.html&psig=AOvVaw3R42qFUC2TjK5IDt3gDCUc&ust=1585266695179000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKCF2ezotugCFQAAAAAdAAAAABAD
 
-wine pictures gallery
+Wine pictures gallery
 
 https://www.waitrose.com/ecom/products/reyneke-organic-cabernet-merlot/650833-691724-691725
 reyneke wines
@@ -135,3 +135,13 @@ https://www.waitrose.com/ecom/products/blason-du-rhone-cotes-du-rhone-villages/3
 https://d3l6n8hsebkot8.cloudfront.net/images/products/11/LN_583035_BP_11.jpg
 Orovela sapavari georgia
 http://www.orovela.com/
+
+Acknowledgements
+I received further coding assitance from
+    1. Pro git (shared by my mentor)
+    2. Assitance to embed a video from tutorialspoint.com
+        video embed
+            https://www.tutorialspoint.com/How-to-embed-a-video-using-HTML-code
+    3. Promo.com was used to create the orignal video
+    4. Waitrose.com was used to collect all the images needed for the wines gallery
+    5. independent.co.uk was used for the background image.

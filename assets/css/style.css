@@ -147,7 +147,7 @@ body {
    font-family: "Assistant", arial;
    font-display: center;
    font-style: uppercase;
-   margin-left: 220px;
+   margin-left: 270px;
    font-size: 32px;
    color: #ffffff;
 }
@@ -155,18 +155,17 @@ body {
 .quote-heading {
      font-family: "Assistant", arial;
    font-display: center;
-   font-style: uppercase;
    margin-left: 350px;
    font-size: 32px;
    color: #ffffff;
 }
 
 .location-p {
-    font-family: "Amatic SC", arial;
+   font-family: "Amatic SC", arial;
    font-display: center;
-   margin-left: 520px;
+   margin-left: 420px;
    font-style: uppercase;
-   font-size: 18px;
+   font-size: 23px;
    color: #ffffff;
 }
 
@@ -251,6 +250,12 @@ label {
 }
 
 /*...................Spec margins,padding,margins,text*/
+
+.video {
+    margin-left: 250px;
+}
+
+
 /*...................Footer*/
 
 footer {

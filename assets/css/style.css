@@ -218,6 +218,15 @@ label {
   border-radius: 2px;
 }
 
+.number-imput {
+    color: black;
+  font-family: "Righteous", arial;
+  border: 1px solid #fafafa;
+  padding: 1px;
+  margin-left:1px;
+  border-radius: 2px;
+}
+
 .join-button {
   border-radius: 2px;
   padding-top: 15px;

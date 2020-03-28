@@ -145,3 +145,5 @@ I received further coding assitance from
     3. Promo.com was used to create the orignal video
     4. Waitrose.com was used to collect all the images needed for the wines gallery
     5. independent.co.uk was used for the background image.
+    6. www.w3schools.com - Assitance to understand the code for Qty: signup.html
+            https://www.w3schools.com/html/html_form_input_types.asp

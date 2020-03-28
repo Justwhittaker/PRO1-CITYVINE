@@ -88,7 +88,6 @@ header {
 
 .navitem a:hover {
   color: rgb(96, 248, 240);
-  box-shadow: 0 0 15px lightsalmon;
   text-shadow: 0 0 15px black;
 }
 

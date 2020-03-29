@@ -1,4 +1,5 @@
 Milestone Project html/css
+
 City Vine Ireland
 
 The idea for city vine is based on my experience within the hospitlaity industry and the
@@ -49,16 +50,13 @@ Feature 5 - gallery page dedicated to pictures taken by guests and professional 
 Feature 6 - Competition Modual to win a prizr of a case of the "wine of the Month"
 
 Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-JQuery
-The project uses JQuery to simplify DOM manipulation.
-Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+    1. HTML
+    2. CSS
+    3 Wireframe was done on Balsamiq
+        href ="https://balsamiq.cloud/s6vjh9d/pktgf7d" 
+    4. Used mostly the Code Institute liberies rewatched a fwe videos
+    5. Google searches to add video content and do basic input adjustments to my form file.
+    6. No JQuery used
 
 Sign-up form:
 "SignUp" page
@@ -66,12 +64,25 @@ Sign-up form:
 2. Submitted an an invalid email address and verified that a relevant error message appears
 3. Submitted the form with all inputs valid and verify that a success message appears.
 
+Brower interchange
 <!--In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 -->
+
+Debug, Testing & Issues
+1. I found it difficult to ensure that the text-decoration was removed from the wineries web references on the wines page
+        it also took me awhile to figure out the gallery method to ensure a good flow to the veiw.
+
+2. Debug issues found
+     File "/tmp/vscode-extensions/ms-python.python@2019.11.50794/extension/pythonFiles/lib/python/new_ptvsd/wheels/ptvsd/../ptvsd/server/cli.py", line 204, in run_file
+        runpy.run_path(options.target, run_name="__main__")
+    File "/home/gitpod/.pyenv/versions/3.7.7/lib/python3.7/runpy.py", line 261, in run_path
+        code, fname = _get_code_from_file(run_name, path_name)
+    File "/home/gitpod/.pyenv/versions/3.7.7/lib/python3.7/runpy.py", line 236, in _get_code_from_file
+        code = compile(f.read(), fname, 'exec')
+    File "/workspace/PRO1-CITYVINE/README.md", line 1
+        Milestone Project html/css
+    SyntaxError: invalid syntax
+
 Deployment
 <!--This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
@@ -83,6 +94,7 @@ Separate git branch?
 In addition, if it is not obvious, you should also describe how to run your code locally.
 -->
 Credits
+
 Content
 text for Location.html was copied from quotefancy
 "Life is too short to drink bad wine"_Johann Wolfgang Van Goete

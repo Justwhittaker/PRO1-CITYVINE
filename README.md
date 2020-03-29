@@ -110,6 +110,28 @@ video used to embed
 background image
 https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.independent.co.uk%2Flife-style%2Ffood-and-drink%2Fdrinking-wine-beer-makes-you-more-creative-australian-study-mathias-benedek-a7883826.html&psig=AOvVaw3R42qFUC2TjK5IDt3gDCUc&ust=1585266695179000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKCF2ezotugCFQAAAAAdAAAAABAD
 
+Location images
+
+Dublin
+Viagem.com
+https://viagemeturismo.abril.com.br/cidades/dublin-4/
+https://abrilviagemeturismo.files.wordpress.com/2016/12/stockbyte.jpg?quality=70&strip=info&w=680&h=453&crop=1
+
+Galway
+www.irishtimes.com
+https://www.irishtimes.com/life-and-style/travel/ireland/galway-ranked-among-world-s-top-cities-for-2020-by-lonely-planet-1.4058093
+https://www.irishtimes.com/polopoly_fs/1.4058092.1571674612!/image/image.jpg_gen/derivatives/box_620_330/image.jpg
+
+Cork
+www.irishtimes.com
+https://www.irishtimes.com/sponsored/ulster-bank/quality-of-life-cheaper-housing-and-jobs-puts-cork-firmly-on-first-time-buyer-s-map-1.3671728
+https://www.irishtimes.com/polopoly_fs/1.3671744.1540219115!/image/image.jpg_gen/derivatives/box_620_330/image.jpg
+
+Experience
+www.foodandwine.ie
+https://foodandwine.ie/australian-wine-tasting-meet-winemakers-and-taste-a-selection-of-250-wines
+https://foodandwine.ie/uploads/assets/2019/1/C.Wine_Tasting.jpg
+
 Wine pictures gallery
 
 https://www.waitrose.com/ecom/products/reyneke-organic-cabernet-merlot/650833-691724-691725

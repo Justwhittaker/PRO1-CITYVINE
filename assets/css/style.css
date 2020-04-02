@@ -1,5 +1,38 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Assistant|Righteous&display=swap');
 
+/*......................Media Queries*/
+@media(min-width: 1200px) {
+    .body {
+        padding-top: 30px;
+        min-height: 480px;
+        margin: 0 auto;
+        max-width:100%;
+    }
+
+@media(min-width: 992px) {
+    .body {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
+
+@media(min-width: 480px) {
+    .body {
+        padding-top: 30px;
+        min-height: 320px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
+
+@media(min-width: 1024px) {
+    .body {
+        padding-top: 30px;
+        min-height: 340px;
+        margin: 0 auto;
+        max-width: 65%;
+    }
+
 /*...................Heading*/
 
 header {
@@ -186,7 +219,8 @@ body {
    font-family: "Assistant", arial;
    font-display: center;
    font-style: uppercase;
-   margin-left: 270px;
+   margin-left: 460px;
+   margin-top: 60px;
    font-size: 32px;
    color: #ffffff;
 }
@@ -194,18 +228,20 @@ body {
 .quote-heading {
      font-family: "Assistant", arial;
    font-display: center;
-   margin-left: 350px;
+   margin-left: 450px;
    font-size: 32px;
    color: #ffffff;
+   
 }
 
 .location-p {
    font-family: "Amatic SC", arial;
    font-display: center;
-   margin-left: 420px;
+   margin-left: 520px;
    font-style: uppercase;
    font-size: 23px;
    color: #ffffff;
+   margin-bottom: 190px;
 }
 
 /*...................form */
@@ -215,7 +251,7 @@ body {
     background-size: cover;
     background-position: center;
     height: 100px;
-    margin-bottom: 420px;
+    margin-bottom: 490px;
 }
 
 .signup-form{
@@ -282,7 +318,7 @@ label {
 /*...................Spec margins,padding,margins,text*/
 
 .video {
-    margin-left: 250px;
+    margin-left: 450px;
 }
 
 /*...................Footer*/
@@ -327,6 +363,7 @@ footer {
     font-size: 23px;
     color: rgba(24, 52, 206, 0.555);
     margin-left: 140px;
+    float: none:
 }
 
 .copyright p {

@@ -182,3 +182,4 @@ I received further coding assitance from
     6. www.w3schools.com - Assitance to understand the code for Qty: signup.html
             https://www.w3schools.com/html/html_form_input_types.asp
     7. https://uicookies.com/css-glow-effects/ - assitance to understand the code for hover effects
+    8. https://css-tricks.com/snippets/css/media-queries-for-standard-devices/

@@ -1,13 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Assistant|Righteous&display=swap');
 
 /*......................Media Queries*/
-@media(min-width: 1200px) {
+@media(max-width: 700px) {
+    body {
+        background: black;
+    }
+}
+
+/*@media(min-width: 1200px) {
     .body {
         padding-top: 30px;
         min-height: 480px;
         margin: 0 auto;
         max-width:100%;
-    }
+    }}
 
 @media(min-width: 992px) {
     .body {
@@ -15,7 +21,7 @@
         min-height: 240px;
         margin: 0 auto;
         max-width: 50%;
-    }
+    }}
 
 @media(min-width: 480px) {
     .body {
@@ -23,7 +29,7 @@
         min-height: 320px;
         margin: 0 auto;
         max-width: 50%;
-    }
+    }}
 
 @media(min-width: 1024px) {
     .body {
@@ -31,7 +37,8 @@
         min-height: 340px;
         margin: 0 auto;
         max-width: 65%;
-    }
+    }}
+    */
 
 /*...................Heading*/
 
@@ -86,7 +93,7 @@ header {
     color: lightseagreen;
 }
 
-.navcontainer {
+.container {
     font-size: 0;
 }
 

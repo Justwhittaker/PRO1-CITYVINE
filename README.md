@@ -65,8 +65,7 @@ Sign-up form:
 3. Submitted the form with all inputs valid and verify that a success message appears.
 
 Brower interchange
-<!--In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
--->
+I used Bootstrap4 to ensure that my website is mobile first and used the veiwport abilty to ensure that the website is responisive at any device size
 
 Debug, Testing & Issues
 1. I found it difficult to ensure that the text-decoration was removed from the wineries web references on the wines page
@@ -82,6 +81,9 @@ Debug, Testing & Issues
     File "/workspace/PRO1-CITYVINE/README.md", line 1
         Milestone Project html/css
     SyntaxError: invalid syntax
+
+Deployment
+I used Github pages in Github to control the deployment of the website you will find the deployment at https://justwhittaker.github.io/PRO1-CITYVINE/ 
 
 Credits
 

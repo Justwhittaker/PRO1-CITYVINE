@@ -23,17 +23,47 @@ I added plenty of href links to allow the user to find out more infomation and n
 site with ease. I was very careful to ensure that any external links are opened in a seperate 
 tab so that the user doesn't fully leave my site and can quickly return without forgetting how they got there.
 
-With this website I would like to acheieve higher pre event ticket sales, giving the user many various
-methods in arriving to the signup menu, buttons and nav links ensure that the user is very aware that 
-tickets are available and easy to buy for friends too.
+User Perspectective Story
+Herewith a discriptive step by step breakdown of the UX for User A:
+1. Landing page
+    a. When landing on the Home page the user firsts notices the bright logo to know they have found the right page
+    b. Alongside the logo you have the Nav bar links to help the user navigate the site efficently
+    c. A short video starts to play in a canvas below the logo to keep user A interested and get them excited about the experience on offer
+    d. The Footer has all the social links needed for further experience investigation and to show the User A the wonderful time they are going to experience if they book
+    e. Furthermore there is a ref link in the footer bar to the Signup page to encourage and motivate the User into booking post haste.
+2. Event locations
+    a. When the User A clicks the menu nav to event locations they will find all the event locations nationwide with images and titles.
+    b. User A has the option of following the Href for each Location to City Facebooks links which provide further investigative infomation on other events and happenings in the city
+    c. Furthermore there is an experience blog which provides User A different images of what happens at the event.
+    d. The footer has been duplicated to provide further motivation to the signup page as well and the social links
+3. Wines 
+    a. When the User A clicks the menu nav to Wines they will find all the wines showcased on a monthly basis.
+    b. User A has the option of following the Href links for each winery's website link to provide further investigative infomation on the showedcased product as well as other products that the farm produces.
+    c. The footer has been duplicated to provide further motivation to the signup page as well and the social links
+4. Sign up page
+    a. This is the most valuable section of the website in terms of customer retention as well as income generation for the business
+    b. The user has mutliple methods for reaching this page, the Nav bar and footer both have ref links to guide the User A into this important page.
+    c. When the User lands on the page they will find a quick and easy sign up option, asking for basic infomation to help the marketing element as well as book the correct event.
+    d. Once the user has entered all the infomation they would be directed to a paypal encription to safely enter their perferred payment method.
+    e. once the payment is completed they will receive a ticket via email as well as a reference for their booking.
+5. The action that the User is taking on the website to to find further information regarding the event, it's locations and the price per ticket
+6. The goal of the User is to have a user friendly experience and to navigate though the pages with ease, completing a purchase by the end of the experience.
+
+With this website I would like to achieve a higher pre event ticket sales,
+giving the user many various methods in arriving to the signup menu, buttons and nav links, ensures that the user is very aware that 
+tickets are available and are easy to buy for friends too.
+
 With more pre-sales it allows the company to better estimate the total people that are coming,
 bringing in early revenue allowing for less intitial capital expediture at the begining of the events.
+
 Also it allows the company to liase correctly with the Wineries and distributers to ensure that they 
 bring enough stock for the number of guests coming. 
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+The Wireframes were designed to ensure that the ease of use is continued throughout the website and that the UX is following the design process.
+Wireframe was done on Balsamiq
+        href ="https://balsamiq.cloud/s6vjh9d/pktgf7d"
 
-As a user type, I want to perform an action, so that I can achieve a goal.
+
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
 Features
@@ -68,6 +98,59 @@ Brower interchange
 I used Bootstrap4 to ensure that my website is mobile first and used the veiwport abilty to ensure that the website is responisive at any device size
 
 Debug, Testing & Issues
+I have used https://validator.w3.org/nu/?doc=https%3A%2F%2Fjustwhittaker.github.io%2FPRO1-CITYVINE%2Findex.html to check my code errors and correct the issues.
+
+Nu Html Checker
+This tool is an ongoing experiment in better HTML checking, and its behavior remains subject to change
+
+Showing results for https://justwhittaker.github.io/PRO1-CITYVINE/index.html
+Checker Input
+Show sourceoutlineimage report
+1. Error: Stray end tag div.
+        From line 47, column 9; to line 47, column 14
+        >↩        </div>↩    <
+2. Error: The frameborder attribute on the iframe element is obsolete. Use CSS instead.
+        From line 52, column 9; to line 52, column 201
+        ↩↩        <iframe width="709" height="399" src="https://www.youtube.com/embed/F-5HwTNK2Ug" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>↩     
+    Warning: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections.
+        From line 50, column 5; to line 50, column 43
+        ns-->↩    <section class="container-fluid video">↩↩    
+3. Error: Element h2 not allowed as child of element span in this context. (Suppressing further errors from this subtree.)
+        From line 58, column 19; to line 58, column 47
+        <span><h2 class="location-heading">Choose
+    Content model for element span:
+        Phrasing content.
+4. Error: Element p not allowed as child of element span in this context. (Suppressing further errors from this subtree.)
+        From line 59, column 17; to line 59, column 38
+        <p class="location-p">Catch 
+    Contexts in which element p may be used:
+        Where flow content is expected.
+    Content model for element span:
+        Phrasing content.
+5. Error: Attribute href not allowed on element button at this point.
+        From line 70, column 17; to line 70, column 59
+        <button href="signup.html" class="button" >Buy Ti
+    Attributes for element button:
+        Global attributes
+        disabled — Whether the form control is disabled
+        form — Associates the element with a form element
+        formaction — URL to use for form submission
+        formenctype — Entry list encoding type to use for form submission
+        formmethod — Variant to use for form submission
+        formnovalidate — Bypass form control validation for form submission
+        formtarget — Browsing context for form submission
+        name — Name of the element to use for form submission and in the form.elements API
+        type — Type of button
+        value — Value to be used for form submission
+6. Error: Element p not allowed as child of element h5 in this context. (Suppressing further errors from this subtree.)
+        From line 90, column 50; to line 90, column 52
+        Copyright <p>all ri
+    Contexts in which element p may be used:
+        Where flow content is expected.
+Document checking completed.
+
+Used the HTML parser. Externally specified character encoding was utf-8.
+
 1. I found it difficult to ensure that the text-decoration was removed from the wineries web references on the wines page
         it also took me awhile to figure out the gallery method to ensure a good flow to the veiw.
 
@@ -83,7 +166,8 @@ Debug, Testing & Issues
     SyntaxError: invalid syntax
 
 Deployment
-I used Github pages in Github to control the deployment of the website you will find the deployment at https://justwhittaker.github.io/PRO1-CITYVINE/ 
+I used Github pages in Github to control the deployment of the website.
+    You will find the deployment at https://justwhittaker.github.io/PRO1-CITYVINE/ 
 
 Credits
 

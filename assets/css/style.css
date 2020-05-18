@@ -7,7 +7,7 @@
     }
 }
 
-/*@media(min-width: 1200px) {
+@media(min-width: 1200px) {
     .body {
         padding-top: 30px;
         min-height: 480px;
@@ -38,7 +38,7 @@
         margin: 0 auto;
         max-width: 65%;
     }}
-    */
+    
 
 /*...................Heading*/
 
@@ -166,8 +166,7 @@ header {
 /*...................Colors*/
 
 body {
-    background-color: lightgray;
-    background: url("../images/wineglass.jpg");
+    background-color: rgba(7, 6, 6, 0.585);
     background-position: cover;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -331,13 +330,18 @@ label {
 /*...................Footer*/
 
 footer {
-    background-color: lightseagreen;
+    background-color: rgb(36, 36, 194);
     min-height: 40px;
-    position: block; 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: auto;
 }
 
 .social-links {
     padding-bottom: 0;
+    margin-top: 5px;
 }
 
 .social-links li a i {
@@ -361,22 +365,31 @@ footer {
 .social {
     font-family: "Righteous", arial;
     font-size: 23px;
-    color: rgba(24, 52, 206, 0.555);
+    color:white;
     margin-left: 138px;
+    margin-top: 20px;
+}
+
+.social-p {
+    font-family: "Righteous", arial;
+    font-size: 16px;
+    color:white;
+    margin-left: 30px;
 }
 
 .copyright {
     font-family: "Righteous", arial;
     font-size: 23px;
-    color: rgba(24, 52, 206, 0.555);
+    color: white;
     margin-left: 140px;
+    margin-top: 70px;
     float: none:
 }
 
 .copyright p {
     font-family: "Righteous", arial;
     font-size: 9px;
-    color: rgba(24, 52, 206, 0.555)
+    color: white;
 }
 
 .button {

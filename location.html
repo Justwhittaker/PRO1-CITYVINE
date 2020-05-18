@@ -1,20 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ 
     <title>City Vine Ireland</title>
 
 </head>
 <body class="container-fluid">
     <header>
     <!--logo, city vine,header.navbar-->
+    <header>  
+        
     <!-- nav bar styled, inline, rhs, various colors that pop-->
         <div class="row no-gutters">
             
@@ -26,14 +33,14 @@
                 <h3 class="catchphrase">Taste the City</h3>
             </div>
             <div class="col-md-4">
-                <ul id="nav" class="list-inline container">
+                <ul id="nav" class="list-inline navcontainer">
                     <li class="col-6 col-sm-3 list-inline li-menu-color-home navitem">
                         <a href="index.html" class="hvr-glow"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
                     </li>
-                    <li class="active col-6 col-sm-3 list-inline li-menu-color-location navitem">
+                    <li class="col-6 col-sm-3 list-inline li-menu-color-location navitem">
                         <a href="location.html" class="hvr-glow"><i class="fa fa-globe" aria-hidden="true"></i><span>Locations</span></a>
                     </li>
-                    <li class="col-6 col-sm-3 list-inline li-menu-color-wine navitem">
+                    <li class="active col-6 col-sm-3 list-inline li-menu-color-wine navitem">
                         <a href="wines.html" class="hvr-glow"><i class="fa fa-glass" aria-hidden="true"></i><span>Wines</span></a>
                     </li>
                     <li class="col-6 col-sm-3 list-inline li-menu-color-ticket navitem">
@@ -44,45 +51,61 @@
         </div>
         </div>
     </header>
-    <!-- section=video of the cityvine project, centered, good margins-->
-    <section id="wines">
-        
-        <div>
-            <span class="name">Dublin <a href="https://www.facebook.com/DublinLiveOnline/" target="_blank"></span>
+  
+   <div class="container">
+        <h2 class="showcase">Fantasic Locations</h2>  
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+         <!-- Indicators -->
+         <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <a href="https://www.facebook.com/DublinLiveOnline/" target="_blank"><span class="name">Dublin</span></a>
                 <img src="https://abrilviagemeturismo.files.wordpress.com/2016/12/stockbyte.jpg?quality=70&strip=info&w=680&h=453&crop=1" alt="name">
-                    </img></a>
-        </div>
-        <div>
-            <span class="name">Galway <a href="https://www.facebook.com/ILoveGalwayCity/" target="_blank"></span>
+            </div>
+            
+            <div class="item">
+                <a href="https://www.facebook.com/ILoveGalwayCity/" target="_blank"><span class="name">Galway </span></a>
                 <img src="https://www.irishtimes.com/polopoly_fs/1.4058092.1571674612!/image/image.jpg_gen/derivatives/box_620_330/image.jpg" alt="name">
-                    </img></a>
-        </div>
-        <div>
-            <span class="name">Cork <a href="https://www.facebook.com/ilovecork/" target="_blank"></span>
+                    </img>
+            </div>
+    
+            <div class="item">
+                <a href="https://www.facebook.com/ilovecork/" target="_blank"><span class="name">Cork </span></a>
                 <img src="https://www.irishtimes.com/polopoly_fs/1.3671744.1540219115!/image/image.jpg_gen/derivatives/box_620_330/image.jpg" alt="name">
-                    </img></a>
-        </div>
-         <div>
-            <span class="name">Experience</span>
+                    </img>
+            </div>
+
+            <div class="item">
+                 <a href="https://www.instagram.com/cityvineireland/" target="_blank"></span></img><span class="name">Experience</span></a>
                 <img src="https://foodandwine.ie/uploads/assets/2019/1/C.Wine_Tasting.jpg" alt="name">
-                    <a href="signup.html" target="_blank"></span></img></a>
-        </div>
-    </section>
-    <!-- Ensured to bring some quotes and text to the page for good engagement -->
-    <section>
-        <div>
-            <span><h2 class="quote-heading">"Life is too short to drink BAD WINE!!!"</h2>
-                <p class="location-p"> -Johann Wolfgang von Goethe-
-                </p></span>
-        </div>
-    </section>
-    <!-- footer to have socail links centered, copyright rhs, button buy tickets lhs-->
-    <footer>
+                   
+            </div>
+
+    </div>
+    <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+         </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+ <!-- footer to have socail links centered, copyright rhs, button buy tickets lhs-->
+    <footer id="footer-wines">
           <div class="row">
             <div class="col-sm-3">
                 <button href="signup.html" class="button" >Buy Tickets</button>
             </div>
-           <div class="col-sm-3">
+            <div class="col-sm-3">
                 <h4 class="social">Contact</h4>
                     <p class="social-p">Telephone number +353 84 8420407<br>Email address: just.whittaker@gmail.com</p>
             </div>
@@ -110,3 +133,4 @@
     </footer>
 </body>
 </html>
+    

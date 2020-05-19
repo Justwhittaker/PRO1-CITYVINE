@@ -1,6 +1,6 @@
 Milestone Project html/css
 
-City Vine Ireland
+<h1>City Vine Ireland</h1>
 
 The idea for city vine is based on my experience within the hospitlaity industry and the
 fact that there is a lack of exposure for good wines and education on wine tasting to a younger 
@@ -69,6 +69,7 @@ This section is also where you would share links to any wireframes, mockups, dia
 Features
 
 Existing Features
+
 Feature 1 - allows users buy tickets to the events , by having them fill out the signup form. (signup.html)
 Feature 2 - allows the user to see exactly which wineries will be taking part (wines.HTML)
 Feature 3 - Allows users to link directly with the wineries by simply clicking onto the wine they want more info on.
@@ -80,6 +81,7 @@ Feature 5 - gallery page dedicated to pictures taken by guests and professional 
 Feature 6 - Competition Modual to win a prizr of a case of the "wine of the Month"
 
 Technologies Used
+
     1. HTML
     2. CSS
     3 Wireframe was done on Balsamiq
@@ -89,15 +91,18 @@ Technologies Used
     6. No JQuery used
 
 Sign-up form:
+
 "SignUp" page
 1. Submitted an empty form and verified that an error message about the required fields appears
 2. Submitted an an invalid email address and verified that a relevant error message appears
 3. Submitted the form with all inputs valid and verify that a success message appears.
 
 Brower interchange
+
 I used Bootstrap4 to ensure that my website is mobile first and used the veiwport abilty to ensure that the website is responisive at any device size
 
 Debug, Testing & Issues
+
 I have used https://validator.w3.org/nu/?doc=https%3A%2F%2Fjustwhittaker.github.io%2FPRO1-CITYVINE%2Findex.html to check my code errors and correct the issues.
 
 Nu Html Checker
@@ -259,3 +264,4 @@ I received further coding assitance from
             https://www.w3schools.com/html/html_form_input_types.asp
     7. https://uicookies.com/css-glow-effects/ - assitance to understand the code for hover effects
     8. https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
+    9. https://www.w3schools.com/bootstrap/bootstrap_carousel.asp 

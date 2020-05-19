@@ -25,29 +25,35 @@ tab so that the user doesn't fully leave my site and can quickly return without 
 
 <h3>User Perspectective Story</h3>
 Herewith a discriptive step by step breakdown of the UX for User A:
-1. Landing page
+<li>1. Landing page
     a. When landing on the Home page the user firsts notices the bright logo to know they have found the right page
     b. Alongside the logo you have the Nav bar links to help the user navigate the site efficently
     c. A short video starts to play in a canvas below the logo to keep user A interested and get them excited about the experience on offer
     d. The Footer has all the social links needed for further experience investigation and to show the User A the wonderful time they are going to experience if they book
     e. Furthermore there is a ref link in the footer bar to the Signup page to encourage and motivate the User into booking post haste.
-2. Event locations
+</li>
+<li>2. Event locations
     a. When the User A clicks the menu nav to event locations they will find all the event locations nationwide with images and titles.
     b. User A has the option of following the Href for each Location to City Facebooks links which provide further investigative infomation on other events and happenings in the city
     c. Furthermore there is an experience blog which provides User A different images of what happens at the event.
     d. The footer has been duplicated to provide further motivation to the signup page as well and the social links
-3. Wines 
+</li>
+<li>3. Wines 
     a. When the User A clicks the menu nav to Wines they will find all the wines showcased on a monthly basis.
     b. User A has the option of following the Href links for each winery's website link to provide further investigative infomation on the showedcased product as well as other products that the farm produces.
     c. The footer has been duplicated to provide further motivation to the signup page as well and the social links
-4. Sign up page
+</li>
+<li>4. Sign up page
     a. This is the most valuable section of the website in terms of customer retention as well as income generation for the business
     b. The user has mutliple methods for reaching this page, the Nav bar and footer both have ref links to guide the User A into this important page.
     c. When the User lands on the page they will find a quick and easy sign up option, asking for basic infomation to help the marketing element as well as book the correct event.
     d. Once the user has entered all the infomation they would be directed to a paypal encription to safely enter their perferred payment method.
     e. once the payment is completed they will receive a ticket via email as well as a reference for their booking.
-5. The action that the User is taking on the website to to find further information regarding the event, it's locations and the price per ticket
-6. The goal of the User is to have a user friendly experience and to navigate though the pages with ease, completing a purchase by the end of the experience.
+</li>
+<li>5. The action that the User is taking on the website to to find further information regarding the event, it's locations and the price per ticket
+</li>
+<li>6. The goal of the User is to have a user friendly experience and to navigate though the pages with ease, completing a purchase by the end of the experience.
+</li>
 
 With this website I would like to achieve a higher pre event ticket sales,
 giving the user many various methods in arriving to the signup menu, buttons and nav links, ensures that the user is very aware that 

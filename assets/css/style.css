@@ -181,17 +181,20 @@ body {
 }
 
 .li-menu-color-wine {
-    background-color: black;}
+    background-color: black;
+}
 
 .li-menu-color-ticket {
-    background-color: black);}
+    background-color: black);
+}
 
 /*...................Sections*/
 
 #myCarousel {
     height:500px;
-    width:850px;
+    width:1250px;
     margin-bottom: 50px;
+
 }
 
 .loc{

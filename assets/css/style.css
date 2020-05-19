@@ -167,23 +167,26 @@ body {
 }
 
 .li-menu-color-home {
-    background-color: rgb(75, 31, 170);
+    background-color: rgb(125, 97, 185);
 }
 
 .li-menu-color-location {
-    background-color: rgb(75, 31, 170);}
+    background-color: rgb(125, 97, 185);
+}
 
 .li-menu-color-wine {
-    background-color: rgb(75, 31, 170);}
+    background-color: rgb(125, 97, 185);
+}
 
 .li-menu-color-ticket {
-    background-color: rgb(75, 31, 170);}
+    background-color: rgb(125, 97, 185);}
 
 /*...................Sections*/
 
 #myCarousel {
     height:500px;
     width:850px;
+    margin-bottom: 50px;
 }
 
 .loc{

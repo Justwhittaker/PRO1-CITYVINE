@@ -20,39 +20,32 @@
 <body class="container-fluid">
     <header>
     <!--logo, city vine,header.navbar-->
-    <header>  
-        
     <!-- nav bar styled, inline, rhs, various colors that pop-->
         <div class="row no-gutters">
             
             <div class="row">
-            <a class="col-md-4 logo" href="index.html"></a>
+                <a class="col-md-4 logo" href="index.html"></a>
             </div>
-            <div class="row no-gutter">
-                <h1 class="name">City Vine <br> Ireland</h1>
-                <h3 class="catchphrase">Taste the City</h3>
-            </div>
-            <div class="col-md-4">
-                <ul id="nav" class="list-inline navcontainer">
-                    <li class="col-6 col-sm-3 list-inline li-menu-color-home navitem">
-                        <a href="index.html" class="hvr-glow"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
-                    </li>
-                    <li class="col-6 col-sm-3 list-inline li-menu-color-location navitem">
-                        <a href="location.html" class="hvr-glow"><i class="fa fa-globe" aria-hidden="true"></i><span>Locations</span></a>
-                    </li>
-                    <li class="active col-6 col-sm-3 list-inline li-menu-color-wine navitem">
-                        <a href="wines.html" class="hvr-glow"><i class="fa fa-glass" aria-hidden="true"></i><span>Wines</span></a>
-                    </li>
-                    <li class="col-6 col-sm-3 list-inline li-menu-color-ticket navitem">
-                        <a href="signup.html" class="hvr-glow"><i class="fa fa-ticket" aria-hidden="true"></i><span>Tickets</span></a>
-                    </li>
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html">
+                    <h1 class="name">City Vine <br> Ireland</h1>
+                    <h3 class="catchphrase">Taste the City</h3></a>
+                </div>
+                <ul id="nav" class="nav navbar-nav list-inline">
+                    <li class="active list-inline li-menu-color-home navitem"><a href="index.html" class="hvr-glow"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a></li>
+                    <li class="list-inline li-menu-color-location navitem"><a href="location.html" class="hvr-glow"><i class="fa fa-globe" aria-hidden="true"></i><span>Locations</a></li>
+                    <li class="list-inline li-menu-color-wine navitem"><a href="wines.html" class="hvr-glow"><i class="fa fa-glass" aria-hidden="true"></i><span>Wines</span></a></li>
+                    <li class="list-inline li-menu-color-ticket navitem"><a href="signup.html" class="hvr-glow"><i class="fa fa-ticket" aria-hidden="true"></i><span>Tickets</span></a></li>
                 </ul>
-            </div>
-        </div>
+                </div>
+                </div>
+            </nav>
+            
         </div>
     </header>
     <!-- section= eight vineyards showcase for the cityvine project, tiled, good margins-->
-    <!-- I used the "run for life" tutorial from Code Institute, but added href links to link the wineries website to the page-->
    <div class="container">
         <h2 class="showcase">Showcased Wineries</h2>  
             <div id="myCarousel" class="carousel slide" data-ride="carousel">

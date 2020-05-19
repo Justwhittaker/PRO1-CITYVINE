@@ -1,4 +1,4 @@
-Milestone Project html/css
+<h1>Milestone Project html/css</h1>
 
 <h1>City Vine Ireland</h1>
 
@@ -13,7 +13,7 @@ accompliment to a meal instead of just a casual drinking experience.
 Bringing afew restaurants on board allows them to be seen as a great food venue but also a space for 
 entertaining and enjoying the company of friends and family.
 
-UX
+<h2>UX</h2>
 
 For the UX on this project I wanted to create a simple and user friendly site.
 My target audience is between 18-39years old. Hence I chose vibarant colors, many visual aids 
@@ -23,7 +23,7 @@ I added plenty of href links to allow the user to find out more infomation and n
 site with ease. I was very careful to ensure that any external links are opened in a seperate 
 tab so that the user doesn't fully leave my site and can quickly return without forgetting how they got there.
 
-User Perspectective Story
+<h3>User Perspectective Story</h3>
 Herewith a discriptive step by step breakdown of the UX for User A:
 1. Landing page
     a. When landing on the Home page the user firsts notices the bright logo to know they have found the right page
@@ -66,9 +66,9 @@ Wireframe was done on Balsamiq
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
-Features
+<h2>Features</h2>
 
-Existing Features
+<h3>Existing Features</h3>
 
 Feature 1 - allows users buy tickets to the events , by having them fill out the signup form. (signup.html)
 Feature 2 - allows the user to see exactly which wineries will be taking part (wines.HTML)
@@ -80,7 +80,7 @@ Feature 5 - gallery page dedicated to pictures taken by guests and professional 
             our socail platforms more often creating more engagement and thus more traffic on google anatlytics
 Feature 6 - Competition Modual to win a prizr of a case of the "wine of the Month"
 
-Technologies Used
+<h3>Technologies Used</h3>
 
     1. HTML
     2. CSS
@@ -97,11 +97,11 @@ Sign-up form:
 2. Submitted an an invalid email address and verified that a relevant error message appears
 3. Submitted the form with all inputs valid and verify that a success message appears.
 
-Brower interchange
+<h2>Brower interchange</h2>
 
 I used Bootstrap4 to ensure that my website is mobile first and used the veiwport abilty to ensure that the website is responisive at any device size
 
-Debug, Testing & Issues
+<h2>Debug, Testing & Issues</h2>
 
 I have used https://validator.w3.org/nu/?doc=https%3A%2F%2Fjustwhittaker.github.io%2FPRO1-CITYVINE%2Findex.html to check my code errors and correct the issues.
 
@@ -170,7 +170,7 @@ Used the HTML parser. Externally specified character encoding was utf-8.
         Milestone Project html/css
     SyntaxError: invalid syntax
 
-Deployment
+<h2>Deployment</h2>
 I used Github pages in Github to control the deployment of the website.
     You will find the deployment at https://justwhittaker.github.io/PRO1-CITYVINE/ 
 
@@ -187,24 +187,24 @@ Herewith a step by step guide to setup GitHub deployment
 That’s it! Your website is deployed to the Internet! You and anyone with whom you share this link can view your 
 project by navigating in your browser to the URL http://<your-github-username>.github.io.
 
-Credits
+<h2>Credits</h2>
 
-Content
+<h3>Content</h3>
 text for Location.html was copied from quotefancy
 "Life is too short to drink bad wine"_Johann Wolfgang Van Goete
 https://quotefancy.com/quote/839582/Johann-Wolfgang-von-Goethe-Life-is-too-short-to-drink-bad-wine
 
-Media
+<h3>Media</h3>
 The photos used in this site were obtained from:
 
-video used to embed
-    Was created using promo and launched onto Youtube
+<h3>Video used to embed</h3>
+    Was created using Promo and launched onto Youtube
     https://www.youtube.com/embed/F-5HwTNK2Ug
 
 background image
 https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.independent.co.uk%2Flife-style%2Ffood-and-drink%2Fdrinking-wine-beer-makes-you-more-creative-australian-study-mathias-benedek-a7883826.html&psig=AOvVaw3R42qFUC2TjK5IDt3gDCUc&ust=1585266695179000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKCF2ezotugCFQAAAAAdAAAAABAD
 
-Location images
+<h3>Location images</h3>
 
 Dublin
 Viagem.com
@@ -264,7 +264,7 @@ https://d3l6n8hsebkot8.cloudfront.net/images/products/11/LN_583035_BP_11.jpg
 Orovela sapavari georgia
 http://www.orovela.com/
 
-Acknowledgements
+<h2>Acknowledgements</h2>
 I received further coding assitance from
     1. Pro git (shared by my mentor)
     2. Assitance to embed a video from tutorialspoint.com

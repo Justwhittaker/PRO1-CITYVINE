@@ -174,6 +174,19 @@ Deployment
 I used Github pages in Github to control the deployment of the website.
     You will find the deployment at https://justwhittaker.github.io/PRO1-CITYVINE/ 
 
+Herewith a step by step guide to setup GitHub deployment
+1. Go to the project repository in GitHub.
+2. Go to your project's Code & Deploys page, in the Repository tab.
+3. Click the CONNECT TO GITHUB button to connect your project with GitHub. 
+4. Connect to one of your GitHub repositories.
+5. Configure the deploy options. 
+    if you prefer, you can select a particular branch instead of the master one.
+    You can also disable automatic deploys. In this case, you can deploy your project manually by clicking the Deploy this branch button
+6. Deploy your project.
+    After you've triggered the deployment, you can follow it and also view the details about the build process
+That’s it! Your website is deployed to the Internet! You and anyone with whom you share this link can view your 
+project by navigating in your browser to the URL http://<your-github-username>.github.io.
+
 Credits
 
 Content

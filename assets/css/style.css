@@ -101,13 +101,8 @@ header {
 }
 
 .navbar-nav {
-    list-style: none;
-   min-height: 40px;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    display: auto;
+    margin-inline-end: 400px;
+    float: left;
 }
 .navitem {
         text-decoration: none;
@@ -183,7 +178,7 @@ body {
 }
 
 .li-menu-color-wine {
-    background-color: black;
+    background-color:black;
 }
 
 .li-menu-color-ticket {
@@ -194,9 +189,9 @@ body {
 
 #myCarousel {
     height:500px;
-    width:1250px;
+    width:850px;
     margin-bottom: 50px;
-
+    background-color: black;
 }
 
 .loc{
@@ -229,7 +224,7 @@ body {
     font-family: "righteous", Arial;
     text-decoration: none;
     font-size: 20px;
-    color: darkblue;
+    color: lightseagreen;
     text-align: center;
     margin-left: 300px;
 }

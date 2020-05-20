@@ -67,7 +67,8 @@ bring enough stock for the number of guests coming.
 
 The Wireframes were designed to ensure that the ease of use is continued throughout the website and that the UX is following the design process.
 Wireframe was done on Balsamiq
-        href ="https://balsamiq.cloud/s6vjh9d/pktgf7d"
+        
+<li>href ="https://balsamiq.cloud/s6vjh9d/pktgf7d"</li>
 
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
@@ -115,49 +116,39 @@ Nu Html Checker
 This tool is an ongoing experiment in better HTML checking, and its behavior remains subject to change
 
 Showing results for https://justwhittaker.github.io/PRO1-CITYVINE/index.html
-Checker Input
+Checker Input and points of fixes and debugging noted
 Show sourceoutlineimage report
+<ul>
 1. Error: Stray end tag div.
         From line 47, column 9; to line 47, column 14
         >↩        </div>↩    <
+        <li>tag removed</li>
 2. Error: The frameborder attribute on the iframe element is obsolete. Use CSS instead.
         From line 52, column 9; to line 52, column 201
-        ↩↩        <iframe width="709" height="399" src="https://www.youtube.com/embed/F-5HwTNK2Ug" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>↩     
+        ↩↩ <--iframe width="709" height="399" sr="https://www.youtube.com/embed/F-5HwTNK2Ug"*/ frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>↩-->
+        <li>added css to frame border</li>
     Warning: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections.
         From line 50, column 5; to line 50, column 43
-        ns-->↩    <section class="container-fluid video">↩↩    
+        ns-->↩    <section class="container-fluid video">↩↩  
+        <li> No heading nessecary</li>  
 3. Error: Element h2 not allowed as child of element span in this context. (Suppressing further errors from this subtree.)
         From line 58, column 19; to line 58, column 47
-        <span><h2 class="location-heading">Choose
-    Content model for element span:
-        Phrasing content.
+        <span>< class="location-heading">Choose
+        <li>Changed span to a div and seperated from outline</li>
 4. Error: Element p not allowed as child of element span in this context. (Suppressing further errors from this subtree.)
         From line 59, column 17; to line 59, column 38
-        <p class="location-p">Catch 
-    Contexts in which element p may be used:
-        Where flow content is expected.
-    Content model for element span:
-        Phrasing content.
+        p class="location-p">Catch 
+        <li>Changed p into a listed element</li>
 5. Error: Attribute href not allowed on element button at this point.
         From line 70, column 17; to line 70, column 59
-        <button href="signup.html" class="button" >Buy Ti
-    Attributes for element button:
-        Global attributes
-        disabled — Whether the form control is disabled
-        form — Associates the element with a form element
-        formaction — URL to use for form submission
-        formenctype — Entry list encoding type to use for form submission
-        formmethod — Variant to use for form submission
-        formnovalidate — Bypass form control validation for form submission
-        formtarget — Browsing context for form submission
-        name — Name of the element to use for form submission and in the form.elements API
-        type — Type of button
-        value — Value to be used for form submission
+        button href="signup.html" class="button" >Buy Ti
+        <li> included an attitibute to add the href into this attitibute and corrected over multiple pages.</li>
 6. Error: Element p not allowed as child of element h5 in this context. (Suppressing further errors from this subtree.)
         From line 90, column 50; to line 90, column 52
         Copyright <p>all ri
     Contexts in which element p may be used:
         Where flow content is expected.
+</ul>
 Document checking completed.
 
 Used the HTML parser. Externally specified character encoding was utf-8.

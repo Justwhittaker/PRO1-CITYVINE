@@ -102,10 +102,12 @@ header {
 
 .navbar-nav {
     list-style: none;
-  font-weight: bold;
-  margin-bottom: 10px;
-  width: 100%;
-  text-align: center;
+   min-height: 40px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: auto;
 }
 .navitem {
         text-decoration: none;

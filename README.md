@@ -69,7 +69,8 @@ The Wireframes were designed to ensure that the ease of use is continued through
 Wireframe was done on Balsamiq
         
 <li>href ="https://balsamiq.cloud/s6vjh9d/pktgf7d"</li>
-
+I have also included a word Document with the work done on Balsamiq as I fear that the link might have expired
+https://github.com/Justwhittaker/PRO1-CITYVINE/blob/6e3a333c5ebb2b53708d4bdfef6d1bf7e7a54076/assets/images/wireframe%20cityvine.docx
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
